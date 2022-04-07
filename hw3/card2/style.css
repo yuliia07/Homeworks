@@ -1,0 +1,55 @@
+.header {
+    width: 800px;
+    height: 50px;
+    background: #ced8e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botton {
+    width: 150px;
+    height: 25px;
+    background: #0f2b3f;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.icons {
+    width: 50px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.block1 {
+    width: 800px;
+    height: 200px;
+    background: #0f2b3f;
+}
+
+.block2 {
+    width: 800px;
+    height: 200px;
+    background: #ced8e1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blocks {
+    width: 100px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    border-radius: 5px;
+    position: absolute;
+    top: -50px;
+
+}
