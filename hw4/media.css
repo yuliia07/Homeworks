@@ -1,0 +1,29 @@
+@media screen and (max-width: 300px) {
+    .box {
+
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .boxes {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .bcd, .efg {
+        justify-content: space-between;
+    }
+
+    .b, .c, .d, .e, .f, .g {
+        width: 30%;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .h {
+        width: 100%;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
