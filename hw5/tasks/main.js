@@ -70,8 +70,8 @@ console.log(book2.author[1]);
 let firstName = 'Yuliia';
 let middleName = 'Vitaliyivna';
 let lastName = 'Kalynych';
-console.log(`${firstName} ${middleName} ${lastName}`);
-
+let person = `${firstName} ${middleName} ${lastName}`;
+console.log(person);
 // let resultName = prompt('What is your name?');
 // console.log(resultName);
 //
