@@ -74,11 +74,11 @@
 // //     - Користувач вводить або має два числа.
 // //         Потрібно знайти та вивести максимальне число з тих двох .
 // //         Також потрібно врахувати коли введені рівні числа.
-// let a = +prompt('Write first number');
-// let b = +prompt('Write second number');
-// if (a != b) {
-//     let res = a > b ? a : b;
-//     console.log(res);
-// } else {
-//     console.log('Your numbers are equal');
-// }
+let a = +prompt('Write first number');
+let b = +prompt('Write second number');
+if (a !== b) {
+    let res = (a > b) ? a : b;
+    console.log(res);
+} else {
+    console.log('Your numbers are equal');
+}
